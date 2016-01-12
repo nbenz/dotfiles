@@ -1,9 +1,6 @@
 #Dotfiles
 
 ###Usage
-This assumes you're on a fresh machine with no .vim or .vimrc  
-Your complaint that this is suboptimal has been noted, and a story has been placed in the ~~icebox~~ backlog.  
-
 `git clone https://github.com/nbenz/dotfiles.git`  
 `cd dotfiles`  
 `./setup.sh` (this script sucks)  
