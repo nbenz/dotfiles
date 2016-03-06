@@ -14,3 +14,6 @@ let g:ctrlp_match_window_reversed = 0
 
 " Ignore git stuff in ctrlp
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" Autocomplete for handlebars blocks
+let g:mustache_abbreviations = 1
