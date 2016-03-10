@@ -12,6 +12,7 @@
   * [Syntastic](https://www.github.com/scrooloose/syntastic)
   * [vim-javascript](https://www.github.com/pangloss/vim-javascript)
   * [html5.vim](https://www.github.com/othree/html5.vim)
+  * [vim-mustache-handlebars](https://www.github.com/mustache/vim-mustache-handlebars)  
 
 ###Quick Reference  
 Here are some helpful things at a glance for other people who are using this.  
