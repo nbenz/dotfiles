@@ -6,14 +6,15 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/syntastic'
-Plugin 'pangloss/vim-javascript'
-Plugin 'othree/html5.vim'
+Plugin 'mileszs/ack.vim'
 Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'leafgarland/typescript-vim'
+Plugin 'othree/html5.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vim-ruby/vim-ruby'
 
 call vundle#end()
 filetype plugin indent on
