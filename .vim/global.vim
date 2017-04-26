@@ -11,7 +11,6 @@ set mouse=a					      			" Enable mouse
 set linespace=2
 set noswapfile					      	" Disable swap files
 
-
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
@@ -35,7 +34,6 @@ set matchtime=2					   			" ^ for .2s
 
 set ignorecase
 set smartcase						    		" Switch to case-sensitive if contains uppercase characters
-
 
 " All the goodness of solarized colors :)
 let g:solarized_termcolors=256
