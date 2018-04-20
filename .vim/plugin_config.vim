@@ -11,7 +11,10 @@ let g:ctrlp_max_height = 40
 let g:ctrlp_clear_cache_on_exit = 1
 let g:ctrlp_working_path_mode = "ra"
 let g:ctrlp_match_window_reversed = 0
-
 " Ignore git stuff in ctrlp
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
+let g:grep_cmd_opts = '--line-number'
+
+map <Leader>r :call RunCurrentSpecFile()<CR>
+map <Leader>l :call RunNearestSpec()<CR>

@@ -32,7 +32,7 @@ set backspace=2
 set showmatch						    		" Highlight beginning paren when it is closed
 set matchtime=2					   			" ^ for .2s
 
-set ignorecase
+set ignorecase                  " Searches are case-insensitive
 set smartcase						    		" Switch to case-sensitive if contains uppercase characters
 
 " All the goodness of solarized colors :)
@@ -40,3 +40,6 @@ let g:solarized_termcolors=256
 set t_Co=256
 set background=dark
 colorscheme solarized
+
+" Auto-trim whitespace on file save
+autocmd FileType js,ruby,yaml autocmd BufWritePre <buffer> :%s/\s\+$//e
