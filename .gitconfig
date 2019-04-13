@@ -1,0 +1,18 @@
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	st = status
+  cl = clone
+  cm = !git add -A && git commit -m
+  cp = cherry-pick
+  force = push -f
+  la = "!git config -l | grep alias | cut -c 7-"
+  nuke = !git add -A && git commit -qm 'NUKE SAVEPOINT' && git reset HEAD~1 --hard
+  pm = !git checkout master && git up
+  reload = "!f() { git pull --rebase ${1-origin} master; }; f"
+  undo = reset HEAD~1 --mixed
+  up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+  wip = !git add -A && git commit -m 'WIP'
+[core]
+  editor = /usr/local/bin/vim
